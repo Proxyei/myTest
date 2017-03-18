@@ -5,6 +5,13 @@ package com.xywei.test;
  */
 public class Helloworld {
     public static void main(String[] args) {
+        int i=0;
+        try {
+//            i = i/0;
+        }catch (Exception e){
+            System.out.println();
+        }
         System.out.println("helloworld!");
+
     }
 }
